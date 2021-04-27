@@ -14,3 +14,11 @@
         
 ![](https://github.com/MrHeadShok/DiceGameJS/blob/main/Screenshots/1.PNG)
 <br>
+![](https://github.com/MrHeadShok/DiceGameJS/blob/main/Screenshots/2.PNG)
+<br>
+![](https://github.com/MrHeadShok/DiceGameJS/blob/main/Screenshots/3.PNG)
+<br>
+![](https://github.com/MrHeadShok/DiceGameJS/blob/main/Screenshots/4.PNG)
+<br>
+![](https://github.com/MrHeadShok/DiceGameJS/blob/main/Screenshots/5.PNG)
+<br>
