@@ -14,7 +14,7 @@ const btnNew = document.querySelector(`.btn--new`);
 const btnRoll = document.querySelector(`.btn--roll`);
 const btnHold = document.querySelector(`.btn--hold`);
 
-const scores = [0, 0];
+let scores = [0, 0];
 
 let score = 0;
 let activePlayer = 0;
@@ -54,7 +54,7 @@ btnHold.addEventListener(`click`, function () {
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
 
-    if (scores[activePlayer] >= 5) {
+    if (scores[activePlayer] >= 100) {
       let playing = false;
       document
         .querySelector(`.player--${activePlayer}`)
@@ -73,6 +73,11 @@ btnHold.addEventListener(`click`, function () {
 });
 
 btnNew.addEventListener(`click`, function () {
+  scores = [0, 0];
+
+  score = 0;
+  activePlayer = 0;
+  playing = true;
   score1.textContent = 0;
   score2.textContent = 0;
   document
